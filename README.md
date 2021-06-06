@@ -84,15 +84,15 @@ Onde receberemos cadastros de títulos(filmes e séries) referenciando cada est�
 Acesse o board para conferir as informações de forma visual: https://miro.com/app/board/o9J_lA7Nns8=/
 
 ### Requisitos 
-- [ ]  **"/estudios/marvel"** Deverá retornar todos os títulos com o estudio Marvel
-- [ ]  **"/estudios/ghibli"** Deverá retornar todos os títulos com o estudio Ghibli
-- [ ]  **"/estudios/pixar"** Deverá retornar todos os títulos com o estudio Pixar
+- [x]  **"/titulos/marvel"** Deverá retornar todos os títulos com o estudio Marvel
+- [ ]  **"/titulos/ghibli"** Deverá retornar todos os títulos com o estudio Ghibli
+- [ ]  **"/titulos/pixar"** Deverá retornar todos os títulos com o estudio Pixar
 
-- [ ]  **"/estudios"** Deverá retornar todos os estudios cadastrados
-- [ ]  "**/titulos**" Deverá retornar todos os títulos cadastrados, cada um fazendo referencia ao seu respectivo estudio
+- [x]  **"/estudios"** Deverá retornar todos os estudios cadastrados
+- [x]  "**/titulos**" Deverá retornar todos os títulos cadastrados, cada um fazendo referencia ao seu respectivo estudio
 
-- [ ]  "**/estudios**" Deverá criar um estudio 
-- [ ]  "**/titulos**"  Deverá criar um título 
+- [x]  "**/estudios**" Deverá criar um estudio 
+- [x]  "**/titulos**"  Deverá criar um título 
 
 - [ ]  "/titulos/[ID]" Deverá deletar titulo por id específico e retorna mensagem amigável
 - [ ]  "/estudios/[ID]" Deverá deletar estudio por id específico e retorna mensagem amigável
@@ -103,7 +103,7 @@ Acesse o board para conferir as informações de forma visual: https://miro.com/
 
 ### Regras de negócio
 
-- [ ]  Não deverá ser possível criar estudio com o mesmo nome
+- [x]  Não deverá ser possível criar estudio com o mesmo nome
 - [ ]  Não deverá ser possível criar título com o mesmo nome
 - [ ]  Para criar um novo título, deverá vincular no momento da criação a um estudio já existente no sistema
 
